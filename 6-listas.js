@@ -17,3 +17,11 @@ listaDeDestinos.push(`Curitiba`); // adicionando um item na lista depois de pron
 console.log('Destinos possiveis: ');
 //console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log(listaDeDestinos);
+
+
+//splice para remover algo
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+
+//mostrar um unico elemento na lista
+console.log(listaDeDestinos [1] , listaDeDestinos [0]);
